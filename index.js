@@ -11,8 +11,7 @@ function findNemo2(fish) {
       console.log('Found NEMO!');
     }
   }
-  let t1 = performance.now();
-  console.log("Call to find Nemo took " + (t1 - t0) + " milliseconds.");
 }
 
-findNemo2(everyone)
+findNemo2(everyone) 
+// O(n). Linear time
